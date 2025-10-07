@@ -1,2 +1,2 @@
-def select_user(db):
+def select_users(db):
     return db.execute("SELECT * FROM UTENTI").fetchall()
